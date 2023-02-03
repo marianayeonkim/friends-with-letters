@@ -72,7 +72,7 @@
                 let contents = document.getElementById('contents').value;
                 console.log(name, address, contents); //print variable을 프린트 하겠다
 // console.log(name, address, contents); // print
-                window.location = 'mailto:' + email + '?subject=' + name + '&cc=' + address + '&body=' + body;
+                window.location = 'mailto:' + email + '?subject=' + name + '&cc=' + address + '&body=' + contents;
                 window.location.reload();
               };
             </script>
